@@ -7,7 +7,6 @@
 	<Parameter name="outDoc1" direction="out" type="document" eval="variable"/>
 	<!--CIM Activities-->
 	<Activity Name="CheckMessageType">
-		<Start/>
 		<Action>NoOperation</Action>
 		<Description>Check the type of message recieved.</Description>
 		<Execution>SYNCHR</Execution>
